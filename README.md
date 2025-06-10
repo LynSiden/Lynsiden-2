@@ -1,1 +1,2 @@
-# Lynsiden-2
+# LynSiden
+Nettsider for lokale bedrifter – lynraskt levert.
