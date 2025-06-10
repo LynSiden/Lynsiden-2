@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LynSiden - Nettsider på 48 timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header">
+    <div class="container nav-wrapper">
+      <a href="#hero" class="logo">LynSiden</a>
+      <nav id="nav">
+        <ul>
+          <li><a href="#hero">Hjem</a></li>
+          <li><a href="#features">Funksjoner</a></li>
+          <li><a href="#pricing">Priser</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </nav>
+      <button id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <section id="hero" class="section hero">
+    <div class="container">
+      <h1 class="headline animate-on-load">Få nettsiden din live på 48 timer</h1>
+      <p class="subheadline">Vi bygger profesjonelle nettsider for lokale bedrifter – klare for leads</p>
+      <a href="#contact" class="btn cta">Bestill gratis demo</a>
+    </div>
+  </section>
+
+  <section id="how" class="section how">
+    <div class="container">
+      <h2>Hvordan det fungerer</h2>
+      <div class="cards">
+        <div class="card fade-in">
+          <h3>Design</h3>
+          <p>Vi skreddersyr et moderne design som passer din merkevare.</p>
+        </div>
+        <div class="card fade-in">
+          <h3>Koble til GoHighLevel</h3>
+          <p>Vi integrerer nettsiden med din GoHighLevel-konto for enkel leadhåndtering.</p>
+        </div>
+        <div class="card fade-in">
+          <h3>Publiser og konverter</h3>
+          <p>Nettsiden lanseres lynraskt – klar til å fange nye kunder.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section features">
+    <div class="container">
+      <h2>Hva du får</h2>
+      <div class="cards">
+        <div class="card fade-in">
+          <div class="icon">📱</div>
+          <h3>Mobilvennlig design</h3>
+        </div>
+        <div class="card fade-in">
+          <div class="icon">🔍</div>
+          <h3>SEO-optimalisering</h3>
+        </div>
+        <div class="card fade-in">
+          <div class="icon">⭐</div>
+          <h3>Google-anmeldelser</h3>
+        </div>
+        <div class="card fade-in">
+          <div class="icon">💬</div>
+          <h3>Booking og chat integrasjon</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section testimonials">
+    <div class="container">
+      <h2>Tilbakemeldinger</h2>
+      <div class="testimonial-wrapper fade-in">
+        <blockquote id="testimonial-text">“LynSiden leverte nettsiden vår på rekordtid og vi fikk nye kunder med en gang!”</blockquote>
+        <p id="testimonial-author">- Ola, Rørleggermester</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section pricing">
+    <div class="container">
+      <h2>Priser</h2>
+      <div class="tiers">
+        <div class="tier fade-in">
+          <h3>Start</h3>
+          <p class="price">990,-/mnd</p>
+          <ul>
+            <li>Standard design</li>
+            <li>Grunnleggende integrasjoner</li>
+          </ul>
+          <a href="#contact" class="btn">Bestill nå</a>
+        </div>
+        <div class="tier highlight fade-in">
+          <h3>Pro</h3>
+          <p class="price">1 990,-/mnd</p>
+          <ul>
+            <li>Alt i Start</li>
+            <li>Tilpasset design</li>
+            <li>Flere integrasjoner</li>
+          </ul>
+          <a href="#contact" class="btn">Bestill nå</a>
+        </div>
+        <div class="tier fade-in">
+          <h3>Skreddersydd</h3>
+          <p class="price">Kontakt oss</p>
+          <ul>
+            <li>Fullt tilpasset løsning</li>
+            <li>Utvidet support</li>
+          </ul>
+          <a href="#contact" class="btn">Bestill nå</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Bli kontaktet</h2>
+      <form id="contactForm" class="fade-in">
+        <label>Navn
+          <input type="text" name="name" required>
+        </label>
+        <label>E-post
+          <input type="email" name="email" required>
+        </label>
+        <label>Telefon
+          <input type="tel" name="phone" required>
+        </label>
+        <label>Bransje
+          <select name="industry">
+            <option>Rørlegger</option>
+            <option>Elektriker</option>
+            <option>Håndverker</option>
+            <option>Annet</option>
+          </select>
+        </label>
+        <button type="submit" class="btn">Bli kontaktet</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Kontakt: <a href="mailto:post@lynsiden.no">post@lynsiden.no</a></p>
+      <p><a href="#">Personvern</a> | <a href="#">Vilkår</a></p>
+      <p>© LynSiden <span id="currentYear"></span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
