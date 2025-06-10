@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LynSiden</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans">
+    <!-- Navbar -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto flex items-center justify-between p-4">
+            <a href="#" class="text-xl font-bold">LynSiden</a>
+            <nav class="hidden md:flex space-x-4">
+                <a href="#hero" class="hover:underline">Hjem</a>
+                <a href="#features" class="hover:underline">Funksjoner</a>
+                <a href="#pricing" class="hover:underline">Priser</a>
+                <a href="#contact" class="hover:underline">Kontakt</a>
+            </nav>
+            <button id="nav-toggle" class="md:hidden focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden bg-white">
+            <a href="#hero" class="block px-4 py-2 hover:bg-gray-100">Hjem</a>
+            <a href="#features" class="block px-4 py-2 hover:bg-gray-100">Funksjoner</a>
+            <a href="#pricing" class="block px-4 py-2 hover:bg-gray-100">Priser</a>
+            <a href="#contact" class="block px-4 py-2 hover:bg-gray-100">Kontakt</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="bg-gray-900 text-white py-20">
+            <div class="container mx-auto text-center px-4">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Få nettsiden din live på 48 timer</h1>
+                <p class="text-xl md:text-2xl mb-8">Vi bygger profesjonelle, lokale nettsider klare for leads og kunder – ferdig satt opp med GoHighLevel</p>
+                <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded">
+                    Bestill en demo
+                </a>
+            </div>
+        </section>
+
+        <!-- Hvordan det fungerer -->
+        <section id="how" class="py-16">
+            <div class="container mx-auto text-center px-4">
+                <h2 class="text-3xl font-bold mb-8">Hvordan det fungerer</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div>
+                        <div class="text-4xl mb-4">1</div>
+                        <h3 class="text-xl font-semibold mb-2">Bygg</h3>
+                        <p>Vi designer en flott, lokal side.</p>
+                    </div>
+                    <div>
+                        <div class="text-4xl mb-4">2</div>
+                        <h3 class="text-xl font-semibold mb-2">Koble</h3>
+                        <p>Integrasjoner og verktøy satt opp.</p>
+                    </div>
+                    <div>
+                        <div class="text-4xl mb-4">3</div>
+                        <h3 class="text-xl font-semibold mb-2">Konverter</h3>
+                        <p>Ferdig for å hente leads og kunder.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hva du får -->
+        <section id="features" class="bg-gray-100 py-16">
+            <div class="container mx-auto text-center px-4">
+                <h2 class="text-3xl font-bold mb-8">Hva du får</h2>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div class="p-4 bg-white rounded shadow">
+                        <h3 class="font-semibold mb-2">Mobilvennlig design</h3>
+                        <p>Fungerer på alle enheter.</p>
+                    </div>
+                    <div class="p-4 bg-white rounded shadow">
+                        <h3 class="font-semibold mb-2">SEO-klar</h3>
+                        <p>Optimalisert for Google.</p>
+                    </div>
+                    <div class="p-4 bg-white rounded shadow">
+                        <h3 class="font-semibold mb-2">Booking & Chat</h3>
+                        <p>Innebygde verktøy for kundedialog.</p>
+                    </div>
+                    <div class="p-4 bg-white rounded shadow">
+                        <h3 class="font-semibold mb-2">Google Reviews integrasjon</h3>
+                        <p>Vis frem dine beste omtaler.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section id="testimonials" class="py-16">
+            <div class="container mx-auto text-center px-4">
+                <h2 class="text-3xl font-bold mb-8">Kundereferanser</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-4 rounded shadow">
+                        <p class="italic">"Fantastisk rask levering og super service!"</p>
+                        <p class="mt-2 font-semibold">- Ola, frisør</p>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow">
+                        <p class="italic">"Nettstedet fikk oss flere bookingforespørsler på en uke."</p>
+                        <p class="mt-2 font-semibold">- Kari, yogastudio</p>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow">
+                        <p class="italic">"Enkel prosess og nydelig design."</p>
+                        <p class="mt-2 font-semibold">- Per, mekaniker</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="bg-gray-100 py-16">
+            <div class="container mx-auto text-center px-4">
+                <h2 class="text-3xl font-bold mb-8">Prispakker</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded shadow">
+                        <h3 class="text-xl font-semibold mb-4">Start</h3>
+                        <p class="mb-4">For nyoppstartede bedrifter.</p>
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded">Velg</button>
+                    </div>
+                    <div class="bg-white p-6 rounded shadow">
+                        <h3 class="text-xl font-semibold mb-4">Pro</h3>
+                        <p class="mb-4">For voksende firmaer.</p>
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded">Velg</button>
+                    </div>
+                    <div class="bg-white p-6 rounded shadow">
+                        <h3 class="text-xl font-semibold mb-4">Skreddersydd</h3>
+                        <p class="mb-4">Løsninger tilpasset dine behov.</p>
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded">Kontakt oss</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontakt -->
+        <section id="contact" class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center">Kontakt oss</h2>
+                <form class="max-w-xl mx-auto">
+                    <div class="mb-4">
+                        <label class="block mb-1" for="name">Navn</label>
+                        <input class="w-full border rounded p-2" type="text" id="name" name="name" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-1" for="email">E-post</label>
+                        <input class="w-full border rounded p-2" type="email" id="email" name="email" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block mb-1" for="phone">Telefonnummer</label>
+                        <input class="w-full border rounded p-2" type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block mb-1" for="industry">Ønsket bransje</label>
+                        <input class="w-full border rounded p-2" type="text" id="industry" name="industry">
+                    </div>
+                    <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded w-full">Send inn</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto text-center space-y-4">
+            <div>
+                <p>Kontaktinfo kommer her</p>
+            </div>
+            <div class="space-x-4">
+                <a href="#">Vilkår</a>
+                <a href="#">Personvern</a>
+            </div>
+            <div>
+                <p>© LynSiden <span id="year"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
