@@ -1,0 +1,16 @@
+{
+  "name": "lynsiden-2",
+  "version": "1.0.0",
+  "description": "Nettsider for lokale bedrifter – lynraskt levert.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
